@@ -11,5 +11,6 @@ with self.lib;
   wat-installer-btrfs = import ./installers/btrfs.nix;
   wat-installer-btrfs-luks = import ./installers/btrfs-luks.nix;
   wat-installer-hcloud = import ./installers/hcloud.nix;
+  wat-installer-qemu = import ./installers/qemu.nix;
 
 }
